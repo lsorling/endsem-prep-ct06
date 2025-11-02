@@ -28,8 +28,12 @@ function handleUserInput() {
     console.log("you have provided: " +guessInput.value());
     let source = guessInput.value();
     let target = selected;
+
+    if (source === target) {
+        return true;
+    }
     for (let index=0; index<source.length; index++) {
-        
+
     }
 }
 
