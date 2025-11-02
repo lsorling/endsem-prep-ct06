@@ -80,8 +80,12 @@ function draw() {
         text(reveal, width/2, height/2);
 
         if (keyIsDown(13)) {
-            handleUserInput()
         }
     }
+}
 
+function keyPressed() {
+    if (keyCode === 13) {
+        
+    }
 }
