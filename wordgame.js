@@ -25,8 +25,8 @@ function setup() {
 
 function handleUserInput() {
     //alert("hi");
-    console.log("you have provided: " +guessInput.value());
     let source = guessInput.value().toLowerCase();
+    console.log("you have provided: " +source);
     let target = selected;
 
     if (source === target) {
