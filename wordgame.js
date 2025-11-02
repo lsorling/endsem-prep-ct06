@@ -24,7 +24,7 @@ function setup() {
     reveal = "_ ".repeat(selected.length);
 
     guessInput = createInput("");
-    guessInput.position(50, 400);
+    guessInput.position(320, 400);
 
     button1 = createButton("Guess");
     button1.mousePressed(handleUserInput);
