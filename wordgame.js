@@ -16,7 +16,9 @@ function setup() {
 
     guessInput = createInput("");
     guessInput.position(650, 400);
+
     button1 = createButton("Guess");
+    button1.mousePressed();
     button1.position(800, 400);
 }
 
