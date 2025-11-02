@@ -39,7 +39,7 @@ function handleUserInput() {
             reveal[index*2] = target[index];
         }
         else {
-            console.log("why no matched")
+            console.log("why no matched?");
         }
     }
     reveal = reveal.toUpperCase();
