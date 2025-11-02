@@ -7,7 +7,8 @@ const WORDS = [
     "knock", "month", "pluck",
     "drone", "score", "bones",
     "cloud", "skull", "train",
-    "plane", ];
+    "plane", "grape", "beach",
+    ""];
 let selected;
 let reveal;
 let guessInput;
