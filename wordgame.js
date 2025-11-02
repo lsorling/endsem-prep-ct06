@@ -33,7 +33,7 @@ function handleUserInput() {
         return true;
     }
     for (let index=0; index<source.length; index++) {
-
+        if (source[index] === target[index])
     }
 }
 
