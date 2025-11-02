@@ -14,7 +14,7 @@ function setup() {
     reveal = "_ ".repeat(selected.length);
 
     guessInput = createInput("abc");
-    guessInput.position(width/2, height/2+100);
+    guessInput.position(300, 300);
 }
 
 function draw() {
