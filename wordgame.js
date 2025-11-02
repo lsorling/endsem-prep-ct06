@@ -31,8 +31,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(40);
 //    text(selected, width/2, height/2);
-    text("Guess the hidden word", width/2, height/2-50);
-    text("Attempts: 0", width/2, height/2 +50 )
+    text("Guess the hidden word", width/2, height/2-80);
+    text("Attempts: 0", width/2, height/2 -40 )
     textAlign(RIGHT, CENTER);
     text("Hint: ", width/2, height/2 )
     textAlign(LEFT, CENTER);
