@@ -38,6 +38,7 @@ function handleUserInput() {
             reveal[index*2] = target[index];
         }
     }
+    reveal = reveal.to
     return false;
 }
 
