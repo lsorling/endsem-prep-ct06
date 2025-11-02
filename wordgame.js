@@ -16,11 +16,11 @@ function setup() {
     reveal = "_ ".repeat(selected.length);
 
     guessInput = createInput("");
-    guessInput.position(650, 400);
+    guessInput.position(350, 400);
 
     button1 = createButton("Guess");
     button1.mousePressed(handleUserInput);
-    button1.position(800, 400);
+    button1.position(400, 400);
 }
 
 function handleUserInput() {
