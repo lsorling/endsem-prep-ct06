@@ -10,6 +10,7 @@ const WORDS = [
     "plane", "grape", "beach",
     "storm", "mango", "punch",
     "inset", "watch", "queue"];
+    
 let selected;
 let reveal;
 let guessInput;
