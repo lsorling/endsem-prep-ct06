@@ -32,6 +32,8 @@ function setup() {
 }
 
 function handleUserInput() {
+    attempts++;
+
     //alert("hi");
     let source = guessInput.value().toLowerCase();
     let target = selected;
@@ -48,7 +50,6 @@ function handleUserInput() {
         }
     }
     reveal = inside.join("").toUpperCase();
-    attempts++;
     guessInput.value("");
     return;
 }
