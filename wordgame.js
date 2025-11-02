@@ -46,7 +46,7 @@ function handleUserInput() {
             console.log("why no matched?");
         }
     }
-    reveal = reveal.toUpperCase();
+    reveal = inside.join().toUpperCase();
     console.log("hints: " + reveal);
     return false;
 }
