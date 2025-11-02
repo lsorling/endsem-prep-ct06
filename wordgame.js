@@ -29,7 +29,7 @@ function handleUserInput() {
 function draw() {
     background("hotpink");
     textAlign(CENTER, CENTER);
-    textSize(40);
+    textSize(32);
 //    text(selected, width/2, height/2);
     text("Guess the hidden word", width/2, height/2-100);
     text("Attempts: 0", width/2, height/2 -50 )
