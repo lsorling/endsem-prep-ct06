@@ -1,5 +1,5 @@
 
-const WORDS = ["cover", "power", ""];
+const WORDS = ["cover", "power", "house", ""];
 
 function setup() {
 
