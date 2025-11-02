@@ -59,7 +59,8 @@ function draw() {
     if (gameOver) {
         textAlign(CENTER, CENTER);
         textSize(32);
-        text("You got the correct answer!", width/2, he)
+        text("You got the correct answer!", width/2, height/2);
+        text("The word is " + reveal, wi)
     }
     else {
         textAlign(CENTER, CENTER);
