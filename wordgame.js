@@ -56,7 +56,7 @@ function handleUserInput() {
 }
 
 function draw() {
-    background("hotpink");
+    background("skyblue");
 
     if (gameOver) {
         textAlign(CENTER, CENTER);
