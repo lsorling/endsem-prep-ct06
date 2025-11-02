@@ -13,7 +13,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(40);
     selected = random(WORDS);
-    console.log("hidden is: " + selected);
+    // console.log("hidden is: " + selected);
 //    text(selected, width/2, height/2);
     reveal = "_ ".repeat(selected.length);
 
