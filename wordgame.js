@@ -63,6 +63,9 @@ function draw() {
         textSize(32);
         if (attempts === 0) 
             text("You got the correct answer!", width/2, height/2);
+        else
+            text("You got the correct answer!", width/2, height/2);
+
         text("The word is " + reveal, width/2, height/2 + 50);
         guessInput.remove();
         button1.remove();
