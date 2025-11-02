@@ -13,7 +13,7 @@ function setup() {
 //    text(selected, width/2, height/2);
     reveal = "_ ".repeat(selected.length);
 
-    guessInput = createInput("abc", width/2, height/2);
+    guessInput = createInput("abc", width/2, 300);
 }
 
 function draw() {
