@@ -38,8 +38,8 @@ function handleUserInput() {
         console.log(source[index]);
         console.log(target[index]);
         if (source[index] === target[index]) {
-            reveal[index*2] = target[index];
-            console.log("hints: " + reveal);
+            inside[index*2] = target[index];
+            console.log("hints: " + inside);
 
         }
         else {
