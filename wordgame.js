@@ -32,6 +32,7 @@ function draw() {
     textSize(40);
 //    text(selected, width/2, height/2);
     text("Guess the hidden word", width/2, height/2-50);
+    textAlign(RIGHT, CENTER);
     text("Hint: ", width/2, height/2 )
     text(reveal, width/2, height/2);
 }
