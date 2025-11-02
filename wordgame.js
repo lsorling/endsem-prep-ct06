@@ -10,5 +10,6 @@ function draw() {
     background("hotpink");
     textAlign(CENTER, CENTER);
     textSize(40);
-    text()
+    let selected = random(WORDS);
+    text(selected);
 }
