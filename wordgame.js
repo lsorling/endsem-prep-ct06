@@ -8,9 +8,9 @@ function setup() {
     textSize(40);
     let selected = random(WORDS);
     text(selected, width/2, height/2);
-
+    let 
 }
 
 function draw() {
-    background("hotpink");
+//    background("hotpink");
 }
