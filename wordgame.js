@@ -2,6 +2,7 @@
 const WORDS = ["cover", "power", "house", "peach", "apple", "bound"];
 let selected;
 let reveal;
+let guessInput;
 
 function setup() {
     createCanvas(600,600);
