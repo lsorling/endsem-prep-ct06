@@ -26,8 +26,11 @@ function setup() {
 function handleUserInput() {
     //alert("hi");
     console.log("you have provided: " +guessInput.value());
-    let source = selected;
-    let 
+    let source = guessInput.value();
+    let target = selected;
+    for (let index=0; index<source.length; index++) {
+        
+    }
 }
 
 function draw() {
