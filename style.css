@@ -2,9 +2,9 @@ body {
     font-family: sans-serif;
     background-color: #111;
     color: #fff;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding: 2rem;
 }
 h1 {
