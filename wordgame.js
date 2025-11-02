@@ -1,6 +1,7 @@
 
 const WORDS = ["cover", "power", "house", "peach", "apple", "bound"];
 let selected;
+let reveal;
 
 function setup() {
     createCanvas(600,600);
@@ -9,7 +10,7 @@ function setup() {
     textSize(40);
     selected = random(WORDS);
 //    text(selected, width/2, height/2);
-    let reveal = "_ ".repeat(selected.length);
+    reveal = "_ ".repeat(selected.length);
     text("Guess the hidden word", width/2, height/2-50);
 
     text(reveal, width/2, height/2);
