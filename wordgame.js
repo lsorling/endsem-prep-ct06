@@ -23,7 +23,7 @@ function setup() {
 }
 
 function handleUserInput() {
-
+    alert("hi");
 }
 
 function draw() {
