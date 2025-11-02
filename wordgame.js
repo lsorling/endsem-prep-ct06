@@ -24,7 +24,7 @@ function setup() {
 
 function handleUserInput() {
     alert("hi");
-    // from g
+    console.log("you inputed" +guessInput.value());
 }
 
 function draw() {
