@@ -24,6 +24,7 @@ function setup() {
 
 function handleUserInput() {
     alert("hi");
+    // from g
 }
 
 function draw() {
