@@ -27,7 +27,7 @@ function handleUserInput() {
     //alert("hi");
     let source = guessInput.value().toLowerCase();
     let target = selected;
-    let 
+    let inside = reveal.split(" ")
 
     if (source === target) {
         reveal = target.toUpperCase();
