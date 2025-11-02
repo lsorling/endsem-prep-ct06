@@ -33,10 +33,13 @@ function handleUserInput() {
         reveal = target.toUpperCase();
         return true;
     }
-    console.log()
+    console.log("repeat how many: " + source.length);
     for (let index=0; index<source.length; index++) {
         if (source[index] == target[index]) {
             reveal[index*2] = target[index];
+        }
+        else {
+            console.log("why no matched")
         }
     }
     reveal = reveal.toUpperCase();
