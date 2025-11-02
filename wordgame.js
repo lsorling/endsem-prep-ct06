@@ -5,7 +5,7 @@ const WORDS = [
     "ditch", "eject", "latch",
     "green", "ghost", "photo",
     "knock", "month", "pluck",
-    "drone", "score", ""];
+    "drone", "score", "bones"];
 let selected;
 let reveal;
 let guessInput;
