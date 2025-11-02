@@ -14,7 +14,7 @@ let gameOver = false;
 let attempts = 0;
 
 function setup() {
-    createCanvas(600,600);
+    createCanvas(800,600);
     background("hotpink");
     textAlign(CENTER, CENTER);
     textSize(40);
