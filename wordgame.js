@@ -13,7 +13,7 @@ function setup() {
     selected = random(WORDS);
     console.log("hidden is: " + selected);
 //    text(selected, width/2, height/2);
-    reveal = "_ ".repeat(selected.length);
+    reveal = "_".repeat(selected.length);
 
     guessInput = createInput("");
     guessInput.position(650, 400);
@@ -34,7 +34,7 @@ function handleUserInput() {
     }
     for (let index=0; index<source.length; index++) {
         if (source[index] === target[index]) {
-            reveal[index*2] = target[index];
+            reveal[index] = target[index];
         }
     }
     return false;
