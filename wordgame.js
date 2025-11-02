@@ -12,6 +12,8 @@ function setup() {
     selected = random(WORDS);
 //    text(selected, width/2, height/2);
     reveal = "_ ".repeat(selected.length);
+
+    guessInput = createInput("abc", width/2, he)
 }
 
 function draw() {
