@@ -42,7 +42,6 @@ function handleUserInput() {
         }
     }
     reveal = inside.join("").toUpperCase();
-    console.log("hints: " + reveal);
     attempts++;
     guessInput.value("");
     return;
@@ -66,7 +65,6 @@ function draw() {
     else {
         textAlign(CENTER, CENTER);
         textSize(32);
-    //    text(selected, width/2, height/2);
         text("Guess the hidden word", width/2, height/2-100);
         text("Attempts: "+attempts, width/2, height/2 -50 )
         textAlign(RIGHT, CENTER);
