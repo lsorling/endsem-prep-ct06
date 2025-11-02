@@ -11,10 +11,6 @@ function setup() {
     selected = random(WORDS);
 //    text(selected, width/2, height/2);
     reveal = "_ ".repeat(selected.length);
-    text("Guess the hidden word", width/2, height/2-50);
-
-    text(reveal, width/2, height/2);
-
 }
 
 function draw() {
@@ -22,7 +18,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(40);
 //    text(selected, width/2, height/2);
-    reveal = "_ ".repeat(selected.length);
     text("Guess the hidden word", width/2, height/2-50);
 
     text(reveal, width/2, height/2);
