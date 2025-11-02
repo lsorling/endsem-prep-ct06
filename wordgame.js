@@ -39,6 +39,8 @@ function handleUserInput() {
         console.log(target[index]);
         if (source[index] === target[index]) {
             reveal[index*2] = target[index];
+            console.log("hints: " + reveal);
+
         }
         else {
             console.log("why no matched?");
