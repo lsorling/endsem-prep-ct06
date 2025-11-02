@@ -37,15 +37,8 @@ function handleUserInput() {
         return;
     }
     for (let index=0; index<source.length; index++) {
-        console.log(source[index]);
-        console.log(target[index]);
         if (source[index] === target[index]) {
             inside[index*2] = target[index];
-            console.log("hints: " + inside);
-
-        }
-        else {
-            console.log("why no matched?");
         }
     }
     reveal = inside.join("").toUpperCase();
