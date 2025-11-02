@@ -5,6 +5,7 @@ let reveal;
 let guessInput;
 let button1;
 let gameOver = false;
+let attempts
 
 function setup() {
     createCanvas(600,600);
