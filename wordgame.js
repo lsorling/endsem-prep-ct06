@@ -1,5 +1,5 @@
 
-const WORDS = ["cover", "power", "house", "peach", "apple", "bound"];
+const WORDS = ["cover", "power", "house", "peach", "apple", "bound", "ditch",];
 let selected;
 let reveal;
 let guessInput;
