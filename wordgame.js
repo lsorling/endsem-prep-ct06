@@ -8,6 +8,7 @@ const WORDS = [
     "drone", "score", "bones",
     "cloud", "skull", "train",
     "plane", "grape", "beach",
+    "storm", "mango", "punch",
     ""];
 let selected;
 let reveal;
