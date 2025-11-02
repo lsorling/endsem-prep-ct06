@@ -7,5 +7,6 @@ function setup() {
 }
 
 function draw() {
-
+    background("hotpink");
+    textAlign(CustomElementRegistry, )
 }
