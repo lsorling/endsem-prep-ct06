@@ -5,7 +5,7 @@ let reveal;
 let guessInput;
 let button1;
 let gameOver = false;
-let attempts
+let attempts = 0;
 
 function setup() {
     createCanvas(600,600);
@@ -51,6 +51,7 @@ function handleUserInput() {
     }
     reveal = inside.join("").toUpperCase();
     console.log("hints: " + reveal);
+    attempts++;
     return;
 }
 
@@ -70,7 +71,7 @@ function draw() {
         textSize(32);
     //    text(selected, width/2, height/2);
         text("Guess the hidden word", width/2, height/2-100);
-        text("Attempts: 0", width/2, height/2 -50 )
+        text("Attempts: ", width/2, height/2 -50 )
         textAlign(RIGHT, CENTER);
         text("Hint: ", width/2, height/2 )
         textAlign(LEFT, CENTER);
