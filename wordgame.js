@@ -26,6 +26,7 @@ function setup() {
 function handleUserInput() {
     //alert("hi");
     console.log("you have provided: " +guessInput.value());
+    let source = selected;
     let 
 }
 
