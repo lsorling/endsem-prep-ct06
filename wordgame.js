@@ -78,8 +78,6 @@ function draw() {
         text("Hint: ", width/2, height/2 )
         textAlign(LEFT, CENTER);
         text(reveal, width/2, height/2);
-
-       
     }
 }
 
