@@ -7,8 +7,10 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(40);
     let selected = random(WORDS);
-    text(selected, width/2, height/2);
+//    text(selected, width/2, height/2);
     let reveal = "_ ".repeat(selected.length);
+    text(reveal, width/2, height/2);
+
 }
 
 function draw() {
