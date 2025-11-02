@@ -15,9 +15,9 @@ function setup() {
     reveal = "_ ".repeat(selected.length);
 
     guessInput = createInput("");
-    guessInput.position(600, 400);
+    guessInput.position(650, 400);
     button1 = createButton("Guess");
-    button1.position(800, 400);
+    button1.position(750, 400);
 }
 
 function draw() {
