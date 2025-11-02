@@ -3,7 +3,7 @@ const WORDS = [
     "cover", "power", "house", 
     "peach", "apple", "bound", 
     "ditch", "eject", "latch",
-""];
+    "green", ""];
 let selected;
 let reveal;
 let guessInput;
