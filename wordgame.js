@@ -31,8 +31,9 @@ function handleUserInput() {
     let inside = reveal.split("");
 
     if (source === target) {
+        gameOver = true;
         reveal = target.toUpperCase();
-        return true;
+        return;
     }
     console.log("repeat how many: " + source.length);
     for (let index=0; index<source.length; index++) {
@@ -49,7 +50,7 @@ function handleUserInput() {
     }
     reveal = inside.join("").toUpperCase();
     console.log("hints: " + reveal);
-    return false;
+    return;
 }
 
 function draw() {
