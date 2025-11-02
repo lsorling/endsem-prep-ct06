@@ -4,6 +4,7 @@ let selected;
 let reveal;
 let guessInput;
 let button1;
+let gameOver = false;
 
 function setup() {
     createCanvas(600,600);
