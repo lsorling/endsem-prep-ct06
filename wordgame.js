@@ -60,7 +60,7 @@ function draw() {
         textAlign(CENTER, CENTER);
         textSize(32);
         text("You got the correct answer!", width/2, height/2);
-        text("The word is " + reveal, wi)
+        text("The word is " + reveal, width/2, height/2 + 50);
     }
     else {
         textAlign(CENTER, CENTER);
