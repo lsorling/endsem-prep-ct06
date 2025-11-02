@@ -8,5 +8,7 @@ function setup() {
 
 function draw() {
     background("hotpink");
-    textAlign(CENTER)
+    textAlign(CENTER, CENTER);
+    textSize(40);
+    text()
 }
