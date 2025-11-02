@@ -52,7 +52,7 @@ function handleUserInput() {
     reveal = inside.join("").toUpperCase();
     console.log("hints: " + reveal);
     attempts++;
-    guessInput.value("")
+    guessInput.value("");
     return;
 }
 
