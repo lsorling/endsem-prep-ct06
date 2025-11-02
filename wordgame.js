@@ -64,7 +64,7 @@ function draw() {
         if (attempts === 0) 
             text("You got the correct answer!", width/2, height/2);
         else
-            text("You got the correct answer!", width/2, height/2);
+            text("You got the correct answer after " + attempts + " tries.", width/2, height/2);
 
         text("The word is " + reveal, width/2, height/2 + 50);
         guessInput.remove();
