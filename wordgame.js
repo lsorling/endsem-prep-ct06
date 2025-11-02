@@ -30,7 +30,7 @@ function handleUserInput() {
     let target = selected;
 
     if (source === target) {
-        reveal = target;
+        reveal = target.toUpperCase();
         return true;
     }
     for (let index=0; index<source.length; index++) {
