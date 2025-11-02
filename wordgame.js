@@ -69,7 +69,7 @@ function draw() {
         guessInput.remove();
         button1.remove();
         if (keyIsDown(13)) {
-            
+            handleUserInput()
         }
     }
     else {
