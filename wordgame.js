@@ -33,6 +33,7 @@ function handleUserInput() {
         reveal = target.toUpperCase();
         return true;
     }
+    console.log()
     for (let index=0; index<source.length; index++) {
         if (source[index] == target[index]) {
             reveal[index*2] = target[index];
