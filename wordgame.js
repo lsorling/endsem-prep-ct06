@@ -54,13 +54,14 @@ function handleUserInput() {
 }
 
 function draw() {
+    background("hotpink");
+
     if (gameOver) {
 
     }
     else {
-        
+
     }
-    background("hotpink");
     textAlign(CENTER, CENTER);
     textSize(32);
 //    text(selected, width/2, height/2);
