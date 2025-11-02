@@ -58,17 +58,17 @@ function draw() {
 
     if (gameOver) {
 
-    }
+        }
     else {
-
+        textAlign(CENTER, CENTER);
+        textSize(32);
+    //    text(selected, width/2, height/2);
+        text("Guess the hidden word", width/2, height/2-100);
+        text("Attempts: 0", width/2, height/2 -50 )
+        textAlign(RIGHT, CENTER);
+        text("Hint: ", width/2, height/2 )
+        textAlign(LEFT, CENTER);
+        text(reveal, width/2, height/2);
     }
-    textAlign(CENTER, CENTER);
-    textSize(32);
-//    text(selected, width/2, height/2);
-    text("Guess the hidden word", width/2, height/2-100);
-    text("Attempts: 0", width/2, height/2 -50 )
-    textAlign(RIGHT, CENTER);
-    text("Hint: ", width/2, height/2 )
-    textAlign(LEFT, CENTER);
-    text(reveal, width/2, height/2);
+
 }
