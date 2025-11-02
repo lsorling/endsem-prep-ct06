@@ -14,7 +14,7 @@ let gameOver = false;
 let attempts = 0;
 
 function setup() {
-    createCanvas(800,600);
+    createCanvas(800,400);
     background("hotpink");
     textAlign(CENTER, CENTER);
     textSize(40);
@@ -24,7 +24,7 @@ function setup() {
     reveal = "_ ".repeat(selected.length);
 
     guessInput = createInput("");
-    guessInput.position(250, 400);
+    guessInput.position(50, 400);
 
     button1 = createButton("Guess");
     button1.mousePressed(handleUserInput);
