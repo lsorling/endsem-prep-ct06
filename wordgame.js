@@ -8,7 +8,7 @@ function setup() {
     textSize(40);
     let selected = random(WORDS);
     text(selected, width/2, height/2);
-    let reveal = "".repeat(selected.l)
+    let reveal = "_ ".repeat(selected.length);
 }
 
 function draw() {
