@@ -79,13 +79,12 @@ function draw() {
         textAlign(LEFT, CENTER);
         text(reveal, width/2, height/2);
 
-        if (keyIsDown(13)) {
-        }
+       
     }
 }
 
 function keyPressed() {
     if (keyCode === 13) {
-        
+        handleUserInput()
     }
 }
