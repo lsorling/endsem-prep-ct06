@@ -30,6 +30,7 @@ function handleUserInput() {
     let target = selected;
 
     if (source === target) {
+        reveal = target;
         return true;
     }
     for (let index=0; index<source.length; index++) {
