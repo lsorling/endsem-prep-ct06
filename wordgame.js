@@ -9,7 +9,7 @@ function setup() {
     let selected = random(WORDS);
 //    text(selected, width/2, height/2);
     let reveal = "_ ".repeat(selected.length);
-    text("Guess the hidden word", width/2, height/2);
+    text("Guess the hidden word", width/2, height/2-50);
 
     text(reveal, width/2, height/2);
 
