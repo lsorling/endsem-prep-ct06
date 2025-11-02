@@ -21,7 +21,7 @@ function setup() {
     selected = random(WORDS);
 //  console.log("hidden is: " + selected);
 //  text(selected, width/2, height/2);
-    reveal = selected[0] + " " +  "_ ".repeat(selected.length);
+    reveal = selected[0] + " " +  "_ ".repeat(selected.length-1);
 
     guessInput = createInput("");
     guessInput.position(320, 300);
