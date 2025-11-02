@@ -38,7 +38,8 @@ function handleUserInput() {
             reveal[index*2] = target[index];
         }
     }
-    reveal = reveal.to
+    reveal = reveal.toUpperCase();
+    console.log("hints: " + reveal);
     return false;
 }
 
