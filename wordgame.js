@@ -68,7 +68,6 @@ function draw() {
         text("The word is " + reveal, width/2, height/2 + 50);
         guessInput.remove();
         button1.remove();
-
     }
     else {
         textAlign(CENTER, CENTER);
@@ -79,6 +78,7 @@ function draw() {
         text("Hint: ", width/2, height/2 )
         textAlign(LEFT, CENTER);
         text(reveal, width/2, height/2);
+
         if (keyIsDown(13)) {
             handleUserInput()
         }
