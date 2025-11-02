@@ -57,8 +57,10 @@ function draw() {
     background("hotpink");
 
     if (gameOver) {
+        textAlign(CENTER, CENTER);
+        textSize(32);
 
-        }
+    }
     else {
         textAlign(CENTER, CENTER);
         textSize(32);
